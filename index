@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مرحبا بكم في صيدلية العز بن عبد السلام</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      direction: rtl;
+      background-color: #f1f1f1;
+      padding: 40px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .image-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .image-links a img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      border: 2px solid #ccc;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .image-links a img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>مرحبًا بكم في صيدلية العز بن عبد السلام</h1>
+  <p>نحن سعداء بزيارتكم! يمكنكم التواصل معنا عبر الروابط التالية:</p>
+
+  <div class="image-links">
+    <a href="https://wa.me/962788658666" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <a href="https://www.instagram.com/alizzbinabdalsalam?igsh=bmFhdm80bGNjb2w1" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/share/1AD4KRrswX/" target="_blank">
+      <img src="https://upload.wikimedia.org
